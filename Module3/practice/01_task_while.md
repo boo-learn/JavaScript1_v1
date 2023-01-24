@@ -15,7 +15,11 @@
 ### Решение задачи
 
 ```javascript
-let n = Number(prompt("n:"));
+ let n = Number(prompt('n: '));
+        
+for (let i = 0; i < n;  i++) {  
+    console.log('Я учу JavaScript');
+}
     
 // TODO: you code here...
 ```
