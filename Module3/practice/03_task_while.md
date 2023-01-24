@@ -18,6 +18,13 @@ _Сумма четных чисел от 0 до 7 = 12_
 
 ```javascript
 // TODO: you code here...
+let n = Number(prompt("n:"));
+let sum = 0
+for (let i = 0; i <= n; i++) {
+    if (i % 2 == 0) 
+    sum = sum + i
+}
+    console.log("Сумма четных чисел от 0 до " + n + " = " + sum)
 ```
 
 ---
