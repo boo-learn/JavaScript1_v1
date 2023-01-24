@@ -4,3 +4,7 @@
 let fruits = ["яблоко", "банан", "киви", "ананас", "груша"];
 
 // TODO: your code here
+
+for (let index in fruits) {
+console.log(`${Number(index) + 1}.${fruits[index]}`)
+}
