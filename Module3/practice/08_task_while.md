@@ -16,7 +16,16 @@
 ### Решение задачи
 
 ```javascript
-// TODO: you code here...
+let n = Number(prompt("n:"));
+        
+for (let i = 2; i < n;  i++) {  
+    if(n % i == 0) {
+        console.log(i);
+    }
+    else {
+        console.log('Число простое')
+    }
+}
 ```
 
 ---
