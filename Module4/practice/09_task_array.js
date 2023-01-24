@@ -5,3 +5,12 @@
 // Пример:
 // Дано: [2, -5, 8, 9, -25, 25, 4]
 // Результат: [3, 5, 2]
+
+let numbers = [2, -5, 8, 9, -25, 25, 4];
+let newNumbers = [];
+for (let number of numbers) {
+    if (Number.isInteger(Math.sqrt(number)))
+    newNumbers.push(Math.sqrt(number))
+
+}
+console.log(newNumbers);
