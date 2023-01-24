@@ -18,5 +18,8 @@
 let n = Number(prompt("n:"));
     
 // TODO: you code here...
-```
+
+for (let i = 0; i < n; i++) {
+    console.log("Я учу JavaScript")
+}```
 
