@@ -28,7 +28,17 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+let numberLast = Number(prompt('Число'));
+
+for (let number1 = 1; number1 <= numberLast; number1++ ) {
+    let line = '';
+
+    for (let number2 = 1; number2 <= numberLast; number2++) {
+        line = line + ' ' + number1*number2;
+    }
+    console.log(line);
+}
+
 ```
 
 ---
