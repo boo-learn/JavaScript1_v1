@@ -34,7 +34,13 @@ n = 5
 
 ```javascript
 // TODO: you code here...
-```
+let n = Number(prompt("n:"));
+let i = 1;
+let s = "*"
+while (i <= n){
+console.log(`${s.repeat(i)}`);   
+i++;
+}```
 
 ---
 
