@@ -33,7 +33,13 @@ n = 5
 ### Решение задачи
 
 ```javascript
-// TODO: you code here...
+let n = Number(prompt("Количество ступенек:"));
+ 
+for (let i = 0; i <= n;  i++) {  
+    s = "*";
+    s = s.repeat(i); 
+    console.log(s);
+}
 ```
 
 ---
