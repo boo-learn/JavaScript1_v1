@@ -12,3 +12,5 @@ let item_count = 8
 let dollar_rate = 74.12
 
 // TODO: your code here
+let cost = item.price/dollar_rate;
+console.log(`Цена в долларах - ${Math.round(cost)}`)
