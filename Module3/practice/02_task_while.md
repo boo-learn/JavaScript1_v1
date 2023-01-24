@@ -20,7 +20,10 @@
 let a = Number(prompt("a:"));
 let b = Number(prompt("b:"));
 
-// TODO: you code here...
+for (let i = a; i <= b;  i++) {  
+    if (i % 2 == 0) 
+    console.log(i);
+}
 ```
 
 ---
