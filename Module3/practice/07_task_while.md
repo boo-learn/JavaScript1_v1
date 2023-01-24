@@ -22,7 +22,12 @@
 ### Решение задачи
 
 ```javascript
-// TODO: you code here...
+let n = Number(prompt("n:"));
+let s = '';
+for (let i = 1; i <= n;  i++) {  
+    s = s + String(i)
+    console.log(s);
+}
 ```
 
 ---
