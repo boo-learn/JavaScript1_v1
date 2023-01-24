@@ -17,7 +17,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+    let n = Number(prompt("n:"));
+    let i = 0;
+    let num_positive = 0;  // Счетчик положительных чисел
+    while (i < n){
+        number = Number(prompt("number:"));  // Запрашиваем числа
+        if (number > 0) {
+            num_positive++; 
+        }
+        i++;
+    }
+    console.log("Было введено " + num_positive + "положительных чисел");
 ```
 
 ---
