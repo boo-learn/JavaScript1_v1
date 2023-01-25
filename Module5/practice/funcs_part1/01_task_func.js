@@ -2,6 +2,14 @@
 
 function max4(n1, n2, n3, n4){
     // TODO: your code here
+numbers = [n1,n2,n3,n4]; 
+maximum = numbers[0];
+for (let i = 1; i<4; i++) {
+if (numbers[i] > maximum) {
+    maximum = numbers[i];
+}
+}
+return maximum
 }
 
 
