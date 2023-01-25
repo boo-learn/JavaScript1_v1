@@ -2,7 +2,11 @@
 // Функция должна вызываться с любым количеством аргументов
 
 function average(...args) {
-    // TODO: your code here
+    sum = 0;
+    for (const number of args) {
+        sum += number
+    }
+    return sum/args.length
 }
 
 
