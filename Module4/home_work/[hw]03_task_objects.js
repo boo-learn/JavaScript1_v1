@@ -39,4 +39,20 @@ print("Товары на складе представлены брэндами:
 
 print("На складе самый дорогой товар брэнда(ов): ")
 // Выведите название бренда самого дорогого товара
-// TODO: your code here
+
+let brands = [];
+let brandHightCost = '';
+
+let hightPrice = items[0].price;
+
+for (let product of items) {
+
+    brands.push(product.brand);
+
+    if (Number(product.price) > hightPrice) {
+        brandHightCost = product.brand;
+    }
+}
+
+console.log(brands.toString());
+console.log(`На складе самый дорогой товар брэнда(ов): ${brandHightCost}`);
