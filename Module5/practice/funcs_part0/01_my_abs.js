@@ -1,6 +1,6 @@
-function my_abs(...){
-    ...
-    return ...
+function my_abs(a){
+m = Math.sqrt(a**2)
+    return m
 }
 
 
